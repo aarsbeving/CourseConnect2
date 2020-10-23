@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBAF3E"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".Interests">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="485dp"
+        android:layout_height="89dp"
+        android:background="#2196F3"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="264dp"
+        android:layout_height="43dp"
+        android:text="@string/interests"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ScrollView
+        android:layout_width="124dp"
+        android:layout_height="539dp"
+        android:layout_marginTop="14dp"
+        android:background="#FBAF3E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FBAF3E"
+            android:backgroundTint="#F3A635"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBox14"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:backgroundTint="#000000"
+                android:checked="true"
+                android:text="Photography" />
+
+            <CheckBox
+                android:id="@+id/checkBox15"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:text="Creativity" />
+
+            <CheckBox
+                android:id="@+id/checkBox13"
+                android:layout_width="123dp"
+                android:layout_height="53dp"
+                android:text="Animation" />
+
+            <CheckBox
+                android:id="@+id/checkBox16"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:checked="true"
+                android:text="Music" />
+
+            <CheckBox
+                android:id="@+id/checkBox12"
+                android:layout_width="123dp"
+                android:layout_height="53dp"
+                android:text="Marketing" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="123dp"
+                android:layout_height="53dp"
+                android:text="Economy" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="123dp"
+                android:layout_height="53dp"
+                android:checked="true"
+                android:text="Film and Video" />
+
+            <CheckBox
+                android:id="@+id/checkBox11"
+                android:layout_width="123dp"
+                android:layout_height="53dp"
+                android:checked="true"
+                android:text="Web Development" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="123dp"
+                android:layout_height="53dp"
+                android:text="Personal Development" />
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="123dp"
+                android:layout_height="53dp"
+                android:text="Nature" />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="123dp"
+                android:layout_height="53dp"
+                android:text="Productivity" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="123dp"
+                android:layout_height="53dp"
+                android:text="Busniess Analytics" />
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="123dp"
+                android:layout_height="53dp"
+                android:text="Entrepreneurship" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="123dp"
+                android:layout_height="53dp"
+                android:checked="true"
+                android:text="Reading" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="123dp"
+                android:layout_height="53dp"
+                android:checked="true"
+                android:text="Writing" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="123dp"
+                android:layout_height="53dp"
+                android:text="Art" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

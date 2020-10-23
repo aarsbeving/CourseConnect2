@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CourseConnect(2)</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="error">Je bent incapabel</string>
+    <string name="settings">Open settings</string>
+    <string name="settingstext">Settings</string>
+    <string name="accounttext">Account</string>
+    <string name="changepassword">Change password</string>
+    <string name="Account">Account</string>
+    <string name="Change_email">Change email address</string>
+    <string name="Change_payment">Change payment method</string>
+    <string name="Change_interests">Change Interests</string>
+    <string name="Delete_account">Delete account</string>
+    <string name="Course1">Course 1</string>
+    <string name="mycourses">My Courses</string>
+    <string name="searchcourses">Search Courses</string>
+    <string name="interests">Interests</string>
+    <string name="chatbutton">Chat</string>
+    <string name="oldUserName">Username not found</string>
+</resources>

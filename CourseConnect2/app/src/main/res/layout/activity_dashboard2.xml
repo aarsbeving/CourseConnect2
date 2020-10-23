@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idSettings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard2">
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="150dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="261dp"
+        android:onClick="OpenSettings"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/settings" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="263dp"
+        android:layout_height="139dp"
+        android:contentDescription="Netflix"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/wyeltzsxpy4t0wvmcwfc" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="457dp"
+        android:layout_height="185dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarStyle="outsideInset"
+        android:soundEffectsEnabled="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="wrap_content"
+                android:layout_height="208dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FBAF3E"
+                android:text="Meditation"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="wrap_content"
+                android:layout_height="208dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FBAF3E"
+                android:onClick="OpenCourse"
+                android:text="Drawing"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="209dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FBAF3E"
+                android:onClick="OpenCourse"
+                android:text="Photo"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="wrap_content"
+                android:layout_height="208dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FBAF3E"
+                android:onClick="OpenCourse"
+                android:text="Python"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="wrap_content"
+                android:layout_height="208dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FBAF3E"
+                android:onClick="OpenCourse"
+                android:text="Java"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="wrap_content"
+                android:layout_height="208dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FBAF3E"
+                android:onClick="OpenCourse"
+                android:text="Personal"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="wrap_content"
+                android:layout_height="208dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FBAF3E"
+                android:text="Web Development"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="105dp"
+        android:layout_height="113dp"
+        android:background="@drawable/circlebutton"
+        android:onClick="OpenMyCourses"
+        android:text="@string/mycourses"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.856"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="105dp"
+        android:layout_height="113dp"
+        android:background="@drawable/circlebutton"
+        android:onClick="OpenChat"
+        android:text="@string/chatbutton"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.856"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="359dp"
+        android:layout_height="66dp"
+        android:background="@drawable/roundedcorner2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243" />
+
+    <CalendarView
+        android:id="@+id/calendarView3"
+        android:layout_width="225dp"
+        android:layout_height="295dp"
+        android:backgroundTint="#0C0C0C"
+        android:outlineProvider="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
